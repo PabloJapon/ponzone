@@ -8,7 +8,7 @@ gemspec
 gem 'ffi', '1.16.0'
 
 # Pin sass-embedded to a version compatible with RubyGems 3.1.4
-gem 'sass-embedded', '< 1.62.0'
+gem 'sass-embedded', '< 1.60.0'
 
 # Additional compatibility fixes for other potential gems that may need older versions
 gem 'sass', '< 3.7'  # Pin Sass to a version compatible with RubyGems 3.1.4
