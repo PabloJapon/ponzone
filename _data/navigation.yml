@@ -11,8 +11,6 @@
 # -------
 es: &DEFAULT_ES
   nav:
-    - title: "Servicios"
-      section: servicios
     - title: "Portafolio"
       section: portafolio
     - title: "Sobre Nosotros"
