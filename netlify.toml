@@ -3,5 +3,6 @@
   publish = "_site"
 
 [build.environment]
-  RUBYGEMS_VERSION = "3.3.22"  # Set the RubyGems version required by your project
-  BUNDLER_VERSION = "2.3.14"    # Ensure Bundler version is compatible with your Gemfile.lock
+  RUBYGEMS_VERSION = "3.3.22"
+  BUNDLER_VERSION = "2.3.14"
+  RUBY_VERSION = "2.7.2"  # Specify the exact Ruby version you're using
