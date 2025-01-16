@@ -1,7 +1,7 @@
 [build]
-  command = "bundle install && npm run build"
-  publish = "public"  # or the appropriate directory for your built site
+  command = "bundle install && bundle exec jekyll build"
+  publish = "_site"
 
 [build.environment]
-  RUBYGEMS_VERSION = "3.3.22"  # Specify the RubyGems version required
-  BUNDLER_VERSION = "2.3.14"   # Specify Bundler version (if necessary)
+  RUBYGEMS_VERSION = "3.3.22"  # Set the RubyGems version required by your project
+  BUNDLER_VERSION = "2.3.14"    # Ensure Bundler version is compatible with your Gemfile.lock
