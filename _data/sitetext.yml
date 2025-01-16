@@ -10,10 +10,10 @@
 # -------
 es: &DEFAULT_ES
   header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
+    #title: ¡Bienvenido a nuestro Estudio!
+    #text: Es un placer conocerle
+    #button: Ver más
+    #buttonlink: "#servicios"
 
   services:
     title: "Servicios"
