@@ -15,8 +15,6 @@ es: &DEFAULT_ES
       section: nosotros
     - title: "Música"
       section: music
-    - title: "Equipo"
-      section: equipo
     - title: "Contáctenos"
       section: contacto
 es-ES:

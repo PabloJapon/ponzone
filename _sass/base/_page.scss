@@ -35,12 +35,14 @@ h6 {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    color: white;  /* Change h2 color to white */
   }
   h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 75px;
+    color: rgb(230, 230, 230);  /* Change h2 color to white */
     text-transform: none;
     @include serif-font;
   }
