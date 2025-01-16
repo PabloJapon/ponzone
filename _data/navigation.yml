@@ -13,7 +13,7 @@ es: &DEFAULT_ES
   nav:
     - title: "Sobre Nosotros"
       section: nosotros
-    - title: "Música"
+    - title: "Music"
       section: music
     - title: "Contáctenos"
       section: contacto

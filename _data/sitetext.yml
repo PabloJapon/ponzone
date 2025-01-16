@@ -16,16 +16,16 @@ es: &DEFAULT_ES
     #buttonlink: "#servicios"
 
   services:
-    title: "Listen to My Music"
-    text: "Check out my latest tracks on Spotify!"
+    title: "Music"
+    text: "Canciones más populares"
     section: music
-    list:
-      - title: "Track 1"
-        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2msnKX8dHQ9Ir61RvyRHjO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
-      - title: "Track 2"
-        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5gj6bMTDpoaPlr8jWyGuGr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
-      - title: "Track 3"
+    list:      
+      - title: "Modesto"
         embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7C6YZrr0kubwrf8v37Zuxl?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      - title: "Dopaos"
+        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2msnKX8dHQ9Ir61RvyRHjO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      - title: "Flashbacks"
+        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5gj6bMTDpoaPlr8jWyGuGr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
 
   portfolio:
     title: "Portafolio"
