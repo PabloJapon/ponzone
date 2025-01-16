@@ -13,6 +13,8 @@ es: &DEFAULT_ES
   nav:
     - title: "Sobre Nosotros"
       section: nosotros
+    - title: "Servicios"
+      section: servicios
     - title: "Equipo"
       section: equipo
     - title: "Contáctenos"
