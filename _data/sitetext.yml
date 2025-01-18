@@ -17,7 +17,7 @@ es: &DEFAULT_ES
 
   services:
     title: "Music"
-    text: "Canciones más populares"
+    text: ""
     section: music
     list:      
       - title: "Modesto"
@@ -62,8 +62,8 @@ es: &DEFAULT_ES
     end: "¡Sé parte <br> de Nuestra <br> Historia!"
 
   about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
+    title: "Biografía"
+    text: ""
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: nosotros
 

@@ -11,8 +11,6 @@
 # -------
 es: &DEFAULT_ES
   nav:
-    - title: "Sobre Nosotros"
-      section: nosotros
     - title: "Music"
       section: music
     - title: "Contáctenos"
