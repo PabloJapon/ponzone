@@ -135,8 +135,8 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact"
+    text: ""
     section: contacto
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."

@@ -15,7 +15,7 @@ es: &DEFAULT_ES
       section: music
     - title: "Video"
       section: video
-    - title: "Contáctenos"
+    - title: "Contact"
       section: contacto
 es-ES:
   <<: *DEFAULT_ES
