@@ -27,6 +27,18 @@ es: &DEFAULT_ES
       - title: "Flashbacks"
         embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5gj6bMTDpoaPlr8jWyGuGr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
 
+  video:
+    title: "Video"
+    text: ""
+    section: video
+    list:      
+      - title: "Modesto"
+        embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sU_9J9qhkhc?si=-2K0x8c1wxac6rzy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+      - title: "Dopaos"
+        embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/lw12sWPEi8Q?si=Ivcksa-nrY7ggHq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+      - title: "Flashbacks"
+        embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/M9bIlzbaY1M?si=fFAQacXv82XO7bzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+
   portfolio:
     title: "Portafolio"
     text: "Lorem ipsum dolor sit amet consectetur."

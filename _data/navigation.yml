@@ -13,6 +13,8 @@ es: &DEFAULT_ES
   nav:
     - title: "Music"
       section: music
+    - title: "Video"
+      section: video
     - title: "Contáctenos"
       section: contacto
 es-ES:
