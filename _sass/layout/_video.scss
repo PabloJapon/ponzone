@@ -1,0 +1,33 @@
+// Styling for the services section
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;  // This keeps the aspect ratio of 16:9
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;  // Optional, you can choose another background color
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style for video columns */
+.video-column {
+  margin-bottom: 30px;  // Add space between videos vertically
+}
+
+@media (max-width: 768px) {
+  .video-column {
+    margin-bottom: 20px;  // Less margin for smaller screens
+  }
+}

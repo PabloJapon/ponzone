@@ -13,8 +13,10 @@
     
     <div class="row text-center">
       {% for service in site.data.sitetext[site.locale].video.list %}
-        <div class="col-md-4">
-          {{ service.embed | markdownify }}
+        <div class="col-md-4 video-column">
+          <div class="video-container">
+            {{ service.embed | markdownify }}
+          </div>
         </div>
       {% endfor %}
     </div>
