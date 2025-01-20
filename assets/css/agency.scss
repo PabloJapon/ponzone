@@ -1,11 +1,21 @@
 ---
 ---
 @charset "utf-8";
+
 // Core variables and mixins
 @import "base/variables.scss";
 @import "base/mixins.scss";
 
 // Custom Fonts
+// Add Horizon Font
+@font-face {
+    font-family: 'Horizon';
+    src: url('/assets/css/webfonts/horizon.otf') format('otf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Dynamically load fonts from site.data.style.fonts
 {% if site.data.style.fonts %}
   {% for font in site.data.style.fonts %}
     @mixin {{font.for}}-font {
@@ -15,6 +25,18 @@
     }
   {% endfor %}
 {% endif %}
+
+// Define a mixin for the Horizon font (manually added)
+@mixin horizon-font {
+    font-family: 'Horizon', -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+// Apply Horizon font globally (optional)
+body, h1, h2, h3, h4, h5, h6 {
+    @include horizon-font;
+}
 
 // Custom colors
 $primary: {{ site.data.style.highlight | default: "#e31c24" }} !default;
