@@ -31,13 +31,13 @@ es: &DEFAULT_ES
     title: "Video"
     text: ""
     section: video
-    list:      
+    list:
       - title: "Modesto"
-        embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sU_9J9qhkhc?si=-2K0x8c1wxac6rzy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/sU_9J9qhkhc?si=-2K0x8c1wxac6rzy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>'
       - title: "Dopaos"
-        embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/lw12sWPEi8Q?si=Ivcksa-nrY7ggHq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/lw12sWPEi8Q?si=Ivcksa-nrY7ggHq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>'
       - title: "Flashbacks"
-        embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/M9bIlzbaY1M?si=fFAQacXv82XO7bzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/M9bIlzbaY1M?si=fFAQacXv82XO7bzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>'
 
   portfolio:
     title: "Portafolio"
