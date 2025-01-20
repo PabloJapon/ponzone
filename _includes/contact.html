@@ -20,19 +20,19 @@
               <div class="form-group">
                 <input name="name" class="form-control" id="name" type="text"
                   placeholder="{{ site.data.sitetext[site.locale].contact.name | default: "Name*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.name-validation | default: "Please enter your name." }}">
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.name-validation | default: "Please enter your name." }}" style="background-color: transparent;">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
                 <input name="_replyto" class="form-control" id="email" type="email"
                   placeholder="{{ site.data.sitetext[site.locale].contact.email | default: "Email*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.email-validation | default: "Please enter your email address." }}">
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.email-validation | default: "Please enter your email address." }}" style="background-color: transparent;">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
                 <input name="phone" class="form-control" id="phone" type="tel"
                   placeholder="{{ site.data.sitetext[site.locale].contact.phone | default: "Phone Number*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.phone-validation | default: "Please enter your phone number." }}">
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.phone-validation | default: "Please enter your phone number." }}" style="background-color: transparent;">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
@@ -40,7 +40,7 @@
               <div class="form-group">
                 <textarea name="message" class="form-control" id="message"
                   placeholder="{{ site.data.sitetext[site.locale].contact.message | default: "Message*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.message-validation | default: "Please enter a message." }}"></textarea>
+                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.message-validation | default: "Please enter a message." }}" style="background-color: transparent;"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
