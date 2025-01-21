@@ -52,6 +52,7 @@
       color: white;
       font-size: 1.2rem;
       padding: 0.5em;
+      margin: 0 0.4em;
       @include heading-font;
 
       &:hover {
@@ -76,6 +77,10 @@
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0;
     }
 
     .navbar-nav {
