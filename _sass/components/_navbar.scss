@@ -1,35 +1,12 @@
-// Styling for the navbar
 #mainNav {
-  background: linear-gradient(to bottom, #00000082, transparent);
-  
-  .navbar-toggler {
-    font-size: 12px;
-    right: 0;
-    padding: 13px;
-    text-transform: uppercase;
-    color: white;
-    border: 0;
-    background-color: transparent;
-    @include heading-font;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  .navbar-brand {
-    color: $primary;
-    @include script-font;
-    display: flex;
-    justify-content: center; // This centers the logo horizontally
-    align-items: center; // Vertically centers the logo if the height is greater than the container
-    margin: 0 auto; // Ensures that the logo stays in the center when the navbar is stretched
-    
-    &.active,
-    &:active,
-    &:focus,
-    &:hover {
-      color: darken($primary, 10%);
-    }
-  }
-
+  // Navigation links (left-aligned)
   .navbar-nav {
+    flex: 1;
+    justify-content: flex-start; // Align navigation links to the left
     .nav-item {
       .nav-link {
         font-size: 90%;
@@ -46,22 +23,46 @@
       }
     }
   }
+
+  // Logo (centered)
+  .navbar-brand {
+    flex: 0; // Logo doesn't stretch
+    margin: 0 auto; // Center the logo
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($primary, 10%);
+    }
+  }
+
+  // Social media links (right-aligned)
+  .social-media-links {
+    display: flex;
+    gap: 15px;
+
+    .nav-link {
+      color: white;
+      font-size: 1.2rem;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
 }
 
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent;
 
     .navbar-brand {
       font-size: 1.75em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
       transition: all 0.3s;
     }
 
@@ -72,16 +73,5 @@
         }
       }
     }
-
-    // .navbar-shrink {
-    //   padding-top: 0;
-    //   padding-bottom: 0;
-    //   background-color: $gray-900;
-      
-    //   .navbar-brand {
-    //     font-size: 1.25em;
-    //     padding: 12px 0;
-    //   }
-    // }
   }
 }
