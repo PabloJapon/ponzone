@@ -161,10 +161,6 @@ Su visión como artista es clara: ofrecer música que conecte profundamente con 
         icon: "fab fa-spotify"
       - url: https://www.youtube.com/@ponzone
         icon: "fab fa-youtube"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://www.tiktok.com/@_ponzone?lang=es
-        icon: "fab fa-tiktok"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
