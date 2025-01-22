@@ -1,4 +1,4 @@
-<!-- Contact -->
+<!-- Contact Section -->
 <section class="page-section" id="contact" style="background: #212529;">
   <div class="container">
     <div class="row">
@@ -9,32 +9,27 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <form id="contactForm" method="POST" data-netlify="true" name="contactForm" action="/thank-you">
+        <form id="contactForm" method="POST" data-netlify="true" name="contact" action="/thank-you">
+          <input type="hidden" name="form-name" value="contact"> <!-- Hidden input for Netlify -->
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input name="name" class="form-control" id="name" type="text" placeholder="Name*" required="required" data-validation-required-message="Please enter your name." style="background-color: transparent;">
-                <p class="help-block text-danger"></p>
+                <input name="name" class="form-control" id="name" type="text" placeholder="Name*" required="required" style="background-color: transparent;">
               </div>
               <div class="form-group">
-                <input name="email" class="form-control" id="email" type="email" placeholder="Email*" required="required" data-validation-required-message="Please enter your email address." style="background-color: transparent;">
-                <p class="help-block text-danger"></p>
+                <input name="email" class="form-control" id="email" type="email" placeholder="Email*" required="required" style="background-color: transparent;">
               </div>
               <div class="form-group">
-                <input name="phone" class="form-control" id="phone" type="tel" placeholder="Phone Number*" required="required" data-validation-required-message="Please enter your phone number." style="background-color: transparent;">
-                <p class="help-block text-danger"></p>
+                <input name="phone" class="form-control" id="phone" type="tel" placeholder="Phone Number*" required="required" style="background-color: transparent;">
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <textarea name="message" class="form-control" id="message" placeholder="Message*" required="required" data-validation-required-message="Please enter a message." style="background-color: transparent;"></textarea>
-                <p class="help-block text-danger"></p>
+                <textarea name="message" class="form-control" id="message" placeholder="Message*" required="required" style="background-color: transparent;"></textarea>
               </div>
             </div>
             <input type="text" name="bot-field" style="display:none">
-            <div class="clearfix"></div>
             <div class="col-lg-12 text-center" style="margin-top: 2em;">
-              <div id="success"></div>
               <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
             </div>
           </div>
@@ -44,4 +39,16 @@
   </div>
 </section>
 
-<!-- End Contact -->
+<!-- Add this script just before closing the body tag -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contactForm");
+    form.addEventListener("submit", function (e) {
+      if (!form.getAttribute("data-netlify")) return; // Only allow Netlify forms
+      e.target.submit(); // Ensure form submits normally
+    });
+  });
+</script>
+
+</body>
+</html>
