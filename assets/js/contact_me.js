@@ -1,20 +1,36 @@
-$(function() {
-  $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
-    submitSuccess: function($form, event) {
-      // Optional success message
-      $('#success').html("<div class='alert alert-success'>");
-      $('#success > .alert-success').html("<strong>Your message has been sent. </strong>");
-      $('#success > .alert-success').append('</div>');
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contactForm");
+  const successOverlay = document.getElementById("success-overlay");
+  const closeOverlayButton = document.getElementById("closeOverlay");
 
-      // Do not prevent default; let Netlify handle the submission
-    },
-    filter: function() {
-      return $(this).is(":visible");
-    },
+  // Handle form submission
+  form.addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Submit the form data to Netlify
+    const formData = new FormData(form);
+
+    fetch("/", {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => {
+        if (response.ok) {
+          // Show the success overlay
+          successOverlay.style.display = "flex";
+          form.reset(); // Reset the form fields
+        } else {
+          alert("Oops! Something went wrong. Please try again.");
+        }
+      })
+      .catch((error) => {
+        alert("There was an error submitting your form. Please try again.");
+        console.error("Form submission error:", error);
+      });
   });
 
-  // Clear success message on focus
-  $('#name').focus(function() {
-    $('#success').html('');
+  // Close the overlay
+  closeOverlayButton.addEventListener("click", function () {
+    successOverlay.style.display = "none";
   });
 });
