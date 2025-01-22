@@ -20,11 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
           successOverlay.style.display = "flex";
           form.reset(); // Reset the form fields
         } else {
-          alert("Oops! Something went wrong. Please try again.");
+          alert("Algo ha ido mal. Por favor, inténtelo de nuevo.");
         }
       })
       .catch((error) => {
-        alert("There was an error submitting your form. Please try again.");
+        alert("Se ha producido un error al enviar el formulario. Por favor, inténtelo de nuevo.");
         console.error("Form submission error:", error);
       });
   });

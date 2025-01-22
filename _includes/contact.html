@@ -3,8 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Contact Us</h2>
-        <h3 class="section-subheading text-muted">We would love to hear from you!</h3>
+        <h2 class="section-heading text-uppercase">Contact</h2>
       </div>
     </div>
     <div class="row">
@@ -15,23 +14,23 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input name="name" class="form-control" id="name" type="text" placeholder="Name*" required="required" style="background-color: transparent;">
+                <input name="name" class="form-control" id="name" type="text" placeholder="Nombre*" required="required" style="background-color: transparent;">
               </div>
               <div class="form-group">
                 <input name="email" class="form-control" id="email" type="email" placeholder="Email*" required="required" style="background-color: transparent;">
               </div>
               <div class="form-group">
-                <input name="phone" class="form-control" id="phone" type="tel" placeholder="Phone Number*" required="required" style="background-color: transparent;">
+                <input name="phone" class="form-control" id="phone" type="tel" placeholder="Número de teléfono*" required="required" style="background-color: transparent;">
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <textarea name="message" class="form-control" id="message" placeholder="Message*" required="required" style="background-color: transparent;"></textarea>
+                <textarea name="message" class="form-control" id="message" placeholder="Mensaje*" required="required" style="background-color: transparent;"></textarea>
               </div>
             </div>
             <input type="text" name="bot-field" style="display:none">
             <div class="col-lg-12 text-center" style="margin-top: 2em;">
-              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar</button>
             </div>
           </div>
         </form>
@@ -42,8 +41,8 @@
   <!-- Success Message Overlay -->
   <div id="success-overlay" style="display: none;">
     <div class="overlay-content">
-      <h3>Thank you for your message!</h3>
-      <p>We’ll get back to you as soon as possible.</p>
+      <h3>Mensaje enviado</h3>
+      <p>Recibirá respuesta lo antes posible.</p>
       <button id="closeOverlay" class="btn btn-primary">Close</button>
     </div>
   </div>
@@ -66,7 +65,7 @@
   }
 
   .overlay-content {
-    background: #fff;
+    background: #adadad;
     padding: 30px;
     text-align: center;
     border-radius: 8px;
