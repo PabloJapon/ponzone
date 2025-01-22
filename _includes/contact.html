@@ -39,16 +39,5 @@
   </div>
 </section>
 
-<!-- Add this script just before closing the body tag -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("contactForm");
-    form.addEventListener("submit", function (e) {
-      if (!form.getAttribute("data-netlify")) return; // Only allow Netlify forms
-      e.target.submit(); // Ensure form submits normally
-    });
-  });
-</script>
-
 </body>
 </html>
