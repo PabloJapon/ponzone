@@ -26,6 +26,10 @@ es: &DEFAULT_ES
         embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2msnKX8dHQ9Ir61RvyRHjO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
       - title: "Flashbacks"
         embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5gj6bMTDpoaPlr8jWyGuGr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      - title: "RLTV"
+        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/41j5nOCOnkOnK3AzS4jiDO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      - title: "No soy de metal"
+        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2aVgWbBohO922olL6iWbrs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
 
   video:
     title: "Video"
@@ -38,6 +42,10 @@ es: &DEFAULT_ES
         embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/lw12sWPEi8Q?si=Ivcksa-nrY7ggHq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>'
       - title: "Flashbacks"
         embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/M9bIlzbaY1M?si=fFAQacXv82XO7bzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>'
+      - title: "RLTV"
+        embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/aVKAHt_YDNQ?si=egTI1jY-OZUQixc6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+      - title: "No soy de metal"
+        embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/7zhA5sJEsh0?si=dREpf-FnlberWBaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
   portfolio:
     title: "Portafolio"
@@ -77,9 +85,9 @@ es: &DEFAULT_ES
     title: "Biografía"
     text: ""
     body: "Nacido en Huelva, Ponzone creció rodeado de una rica cultura flamenca que marcó sus primeros pasos en la música. Su madre le enseñó a tocar la guitarra cuando era pequeño, lo que despertó su curiosidad musical y le llevó a aprender otros instrumentos como el bajo, la batería y el piano. A lo largo de los años, su amor por la música se convirtió en una exploración constante de sonidos y estilos, pasando por una etapa como batería de un grupo de metal, y más tarde, evolucionando hacia la producción y composición.
-Aunque su música actual no está influenciada por el flamenco ni el metal, la versatilidad y profundidad adquiridas en estas etapas son pilares de su identidad musical. Ponzone encuentra en la música un lenguaje universal y libre, una herramienta para conectar con las personas de manera auténtica.
-Antes de lanzarse como artista, trabajó como productor y colaboró con otros músicos, destacando la producción del álbum de rap del artista Sule. En agosto de 2024, Ponzone debutó oficialmente con su propia identidad artística, enfocándose en un trap potente y auténtico que combina bases intensas con mensajes genuinos.
-Su visión como artista es clara: ofrecer música que conecte profundamente con su público, alejándose de los clichés del género y construyendo una propuesta que inspire autenticidad, superación y libertad creativa."
+      Aunque su música actual no está influenciada por el flamenco ni el metal, la versatilidad y profundidad adquiridas en estas etapas son pilares de su identidad musical. Ponzone encuentra en la música un lenguaje universal y libre, una herramienta para conectar con las personas de manera auténtica.
+      Antes de lanzarse como artista, trabajó como productor y colaboró con otros músicos, destacando la producción del álbum de rap del artista Sule. En agosto de 2024, Ponzone debutó oficialmente con su propia identidad artística, enfocándose en un trap potente y auténtico que combina bases intensas con mensajes genuinos.
+      Su visión como artista es clara: ofrecer música que conecte profundamente con su público, alejándose de los clichés del género y construyendo una propuesta que inspire autenticidad, superación y libertad creativa."
     section: nosotros
 
   clients:
