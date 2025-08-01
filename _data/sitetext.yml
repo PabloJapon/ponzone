@@ -30,6 +30,8 @@ es: &DEFAULT_ES
         embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/41j5nOCOnkOnK3AzS4jiDO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
       - title: "No soy de metal"
         embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2aVgWbBohO922olL6iWbrs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      - title: "First take"
+        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2nd197ZIOUdvY2hQg7xT3l?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
 
   video:
     title: "Video"
@@ -46,6 +48,8 @@ es: &DEFAULT_ES
         embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/aVKAHt_YDNQ?si=egTI1jY-OZUQixc6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
       - title: "No soy de metal"
         embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/7zhA5sJEsh0?si=dREpf-FnlberWBaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+      - title: "First take"
+        embed: '<div class="video-container"><iframe src="https://www.youtube.com/embed/dMuluzgTZiI?si=GLdgRUD5c4n5fjjn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 
   portfolio:
     title: "Portafolio"
