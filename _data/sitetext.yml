@@ -152,7 +152,7 @@ es: &DEFAULT_ES
   contact:
     title: "Contact"
     text: ""
-    section: contacto
+    section: contact
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."
     email: "Correo Electrónico*"
@@ -165,7 +165,8 @@ es: &DEFAULT_ES
     submit: "Enviar Mensaje"
 
   footer:
-    legal: "Política de Privacidad"
+    politica_privacidad: "Política de Privacidad"
+    aviso_cookies: "Aviso de Cookies"
     social:
       - url: https://www.instagram.com/_ponzone/
         icon: "fab fa-instagram"

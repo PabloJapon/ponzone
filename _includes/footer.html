@@ -22,12 +22,23 @@
           {% endfor %}
         </ul>
       </div>
-      <!-- Legal -->
+      <!-- PoliticaPrivacidad -->
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="legal" style="color: white;"
-              >{{ site.data.sitetext[site.locale].footer.legal | default:
+            <a href="politica_privacidad" style="color: white;"
+              >{{ site.data.sitetext[site.locale].footer.politica_privacidad | default:
+              "Privacy Policy" }}</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- Cookies -->
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <a href="aviso_cookies" style="color: white;"
+              >{{ site.data.sitetext[site.locale].footer.aviso_cookies | default:
               "Privacy Policy" }}</a
             >
           </li>
@@ -55,12 +66,23 @@
           {% endfor %}
         </ul>
       </div>
-      <!-- Legal -->
+      <!-- PoliticaPrivacidad -->
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext.footer.legal | default:
+            <a href="politica_privacidad" style="color: white;"
+              >{{ site.data.sitetext[site.locale].footer.politica_privacidad | default:
+              "Privacy Policy" }}</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- Cookies -->
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <a href="aviso_cookies" style="color: white;"
+              >{{ site.data.sitetext[site.locale].footer.aviso_cookies | default:
               "Privacy Policy" }}</a
             >
           </li>

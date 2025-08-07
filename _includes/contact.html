@@ -1,8 +1,8 @@
 <!-- Contact Section -->
-<section class="page-section" id="contact" style="background: #212529;">
+<section class="page-section" id="{{ site.data.sitetext.contact.section | default: "contact" }}" style="background: #212529;">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-12 text-center" style="margin-bottom: 4em;">
         <h2 class="section-heading text-uppercase">Contact</h2>
       </div>
     </div>
@@ -43,7 +43,7 @@
     <div class="overlay-content">
       <h3>Mensaje enviado</h3>
       <p>Recibirá respuesta lo antes posible.</p>
-      <button id="closeOverlay" class="btn btn-primary">Close</button>
+      <button id="closeOverlay" class="btn btn-primary" style="padding: 0.5em 2em;">Cerrar</button>
     </div>
   </div>
 </section>
@@ -66,7 +66,7 @@
 
   .overlay-content {
     background: #adadad;
-    padding: 30px;
+    padding: 80px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
