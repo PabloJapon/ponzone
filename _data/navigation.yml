@@ -16,7 +16,7 @@ es: &DEFAULT_ES
     - title: "Video"
       section: video
     - title: "Contact"
-      section: contacto
+      section: contact
 es-ES:
   <<: *DEFAULT_ES
 es-CO:

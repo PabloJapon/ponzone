@@ -1,9 +1,9 @@
 <!-- Contact Section -->
-<section class="page-section" id="{{ site.data.sitetext.contact.section | default: "contact" }}" style="background: #212529;">
+<section class="page-section" id="{{ site.data.sitetext.contact.section | default: 'contact' }}" style="background: #212529;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center" style="margin-bottom: 4em;">
-        <h2 class="section-heading text-uppercase">Contact</h2>
+        <h2 class="section-heading text-uppercase">Contacto</h2>
       </div>
     </div>
     <div class="row">
@@ -11,28 +11,32 @@
         <!-- Contact Form -->
         <form id="contactForm" method="POST" data-netlify="true" name="contact">
           <input type="hidden" name="form-name" value="contact"> <!-- Hidden input for Netlify -->
+          <input type="text" name="bot-field" style="display:none">
+
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input name="name" class="form-control" id="name" type="text" placeholder="Nombre*" required="required" style="background-color: transparent; color: white;">
+                <input name="name" class="form-control" id="name" type="text" placeholder="Nombre*" required style="background-color: transparent; color: white;" aria-label="Nombre">
               </div>
               <div class="form-group">
-                <input name="email" class="form-control" id="email" type="email" placeholder="Email*" required="required" style="background-color: transparent; color: white;">
-              </div>
-              <div class="form-group">
-                <input name="phone" class="form-control" id="phone" type="tel" placeholder="Número de teléfono*" required="required" style="background-color: transparent; color: white;">
+                <input name="email" class="form-control" id="email" type="email" placeholder="Email*" required style="background-color: transparent; color: white;" aria-label="Email">
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <textarea name="message" class="form-control" id="message" placeholder="Mensaje*" required="required" style="background-color: transparent; color: white;"></textarea>
+                <textarea name="message" class="form-control" id="message" placeholder="Mensaje*" required style="background-color: transparent; color: white;" aria-label="Mensaje"></textarea>
               </div>
             </div>
-            <input type="text" name="bot-field" style="display:none">
-            <div class="col-lg-12 text-center" style="margin-top: 2em;">
-              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar</button>
-            </div>
           </div>
+
+          <div class="col-lg-12 text-center" style="margin-top: 2em;">
+            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar</button>
+          </div>
+
+          <div class="col-lg-12 text-center" style="margin-top: 1em; color: #ccc;">
+            <p style="font-size: 0.9em;">Al enviar este formulario aceptas nuestra <a href="#politica-privacidad" style="color: #fff; text-decoration: underline;">política de privacidad</a>.</p>
+          </div>
+
         </form>
       </div>
     </div>
