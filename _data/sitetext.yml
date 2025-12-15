@@ -32,7 +32,15 @@ es: &DEFAULT_ES
         embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2aVgWbBohO922olL6iWbrs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
       - title: "First take"
         embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2nd197ZIOUdvY2hQg7xT3l?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
-
+      - title: "GOYA"
+        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0DPr9RYkTeL950kKbJ5nYp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      - title: "Clean"
+        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5aOZ4kQ0XbvCBSrE0Z87FQ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      - title: "NINTAI"
+        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6fu1IWEPCa4iBFaNvifjk3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+      - title: "Jaque"
+        embed: '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6jMpPMdn3cgvcs2Z9HkfyP?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+              
   video:
     title: "Video"
     text: ""
